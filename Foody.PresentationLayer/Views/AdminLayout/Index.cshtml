@@ -1,0 +1,28 @@
+@model dynamic
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+@await Component.InvokeAsync("_HeadLayoutComponentPartial")
+<body>
+<div class="wrapper">
+    <!-- Sidebar -->
+    @await Component.InvokeAsync("_SideBarLayoutComponentPartial")
+    <!-- End Sidebar -->
+
+    @await Component.InvokeAsync("_MainPanelLayoutComponentPartial")
+
+    @RenderBody()
+
+    @await Component.InvokeAsync("_FooterLayoutComponentPartial")
+
+
+    @await Component.InvokeAsync("_CustomTemplateLayoutComponentPartial")
+</div>
+
+@await Component.InvokeAsync("_ScriptsLayoutComponentPartial")
+
+</body>
+</html>
