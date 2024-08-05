@@ -1,0 +1,14 @@
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/bin/Debug/net6.0/Foody.EntityLayer.deps.json
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/bin/Debug/net6.0/Foody.EntityLayer.runtimeconfig.json
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/bin/Debug/net6.0/Foody.EntityLayer.dll
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/bin/Debug/net6.0/Foody.EntityLayer.pdb
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/Foody.EntityLayer.csproj.AssemblyReference.cache
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/Foody.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/Foody.EntityLayer.AssemblyInfoInputs.cache
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/Foody.EntityLayer.AssemblyInfo.cs
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/Foody.EntityLayer.csproj.CoreCompileInputs.cache
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/Foody.EntityLayer.dll
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/refint/Foody.EntityLayer.dll
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/Foody.EntityLayer.pdb
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/Foody.EntityLayer.genruntimeconfig.cache
+/Users/gamzeatik/RiderProjects/Foody/Foody.EntityLayer/obj/Debug/net6.0/ref/Foody.EntityLayer.dll
