@@ -1,4 +1,5 @@
 using Foody.BusinessLayer.Abstract;
+using Foody.EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Foody.PresentationLayer.Controllers;
@@ -21,5 +22,18 @@ public class ProductsController : Controller
     public IActionResult ProductListWithCategory()
     {
         return View();
+    }
+
+    [HttpGet]
+    public IActionResult CreateProduct()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult CreateProduct(Product product)
+    {
+        _productService.TInsert(product);
+        return RedirectToAction("ProductList");
     }
 }
