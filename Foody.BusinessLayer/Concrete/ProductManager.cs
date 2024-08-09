@@ -7,10 +7,12 @@ namespace Foody.BusinessLayer.Concrete;
 public class ProductManager : IProductService
 {
     private readonly IProductDal _productDal;
+    private readonly ICategoryDal _categoryDal;
 
-    public ProductManager(IProductDal productDal)
+    public ProductManager(IProductDal productDal, ICategoryDal categoryDal)
     {
         _productDal = productDal;
+        _categoryDal = categoryDal;
     }
 
     public void TInsert(Product entity)
@@ -36,5 +38,10 @@ public class ProductManager : IProductService
     public Product TGetById(int id)
     {
         return _productDal.GetById(id);
+    }
+
+    public List<Product> TProductListWithCategory()
+    {
+        return _productDal.ProductListWithCategory();
     }
 }

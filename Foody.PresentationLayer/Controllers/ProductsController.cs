@@ -21,7 +21,8 @@ public class ProductsController : Controller
 
     public IActionResult ProductListWithCategory()
     {
-        return View();
+        var values = _productService.TProductListWithCategory();
+        return View(values);
     }
 
     [HttpGet]
@@ -34,6 +35,13 @@ public class ProductsController : Controller
     public IActionResult CreateProduct(Product product)
     {
         _productService.TInsert(product);
-        return RedirectToAction("ProductList");
+        return RedirectToAction("ProductListWithCategory");
+    }
+
+    [HttpDelete]
+    public IActionResult DeleteProduct(int id)
+    {
+        _productService.TDelete(id);
+        return RedirectToAction("ProductListWithCategory");
     }
 }
