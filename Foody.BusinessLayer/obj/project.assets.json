@@ -1947,32 +1947,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/gamzeatik/.nuget/packages/": {}
+    "C:\\Users\\gamze\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gamzeatik/RiderProjects/Foody/Foody.BusinessLayer/Foody.BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\gamze\\Source\\Repos\\asp-dot-net-core-6.0-project-Foody\\Foody.BusinessLayer\\Foody.BusinessLayer.csproj",
       "projectName": "Foody.BusinessLayer",
-      "projectPath": "/Users/gamzeatik/RiderProjects/Foody/Foody.BusinessLayer/Foody.BusinessLayer.csproj",
-      "packagesPath": "/Users/gamzeatik/.nuget/packages/",
-      "outputPath": "/Users/gamzeatik/RiderProjects/Foody/Foody.BusinessLayer/obj/",
+      "projectPath": "C:\\Users\\gamze\\Source\\Repos\\asp-dot-net-core-6.0-project-Foody\\Foody.BusinessLayer\\Foody.BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\gamze\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gamze\\Source\\Repos\\asp-dot-net-core-6.0-project-Foody\\Foody.BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/gamzeatik/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\gamze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/gamzeatik/RiderProjects/Foody/Foody.DataAccessLayer/Foody.DataAccessLayer.csproj": {
-              "projectPath": "/Users/gamzeatik/RiderProjects/Foody/Foody.DataAccessLayer/Foody.DataAccessLayer.csproj"
+            "C:\\Users\\gamze\\Source\\Repos\\asp-dot-net-core-6.0-project-Foody\\Foody.DataAccessLayer\\Foody.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\gamze\\Source\\Repos\\asp-dot-net-core-6.0-project-Foody\\Foody.DataAccessLayer\\Foody.DataAccessLayer.csproj"
             }
           }
         }
@@ -1981,6 +1983,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1997,22 +2004,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.32, 6.0.32]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.32, 6.0.32]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/gamzeatik/.dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
