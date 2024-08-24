@@ -7,7 +7,7 @@ public class FoodyContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=DESKTOP-DEMO;initial catalog=FoodyDb;integrated security=true;");
+        optionsBuilder.UseSqlServer("Server=(localdb)\\gamze;initial catalog=FoodyDb;integrated security=true;");
     }
 
     public DbSet<About> Abouts { get; set; }

@@ -1,9 +1,9 @@
-@model Foody.EntityLayer.Concrete.Product
-
+﻿@model Product
 @{
-    ViewData["Title"] = "ProductList";
+    ViewData["Title"] = "CreateProduct";
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
+
 
 <div class="container">
     <div class="page-inner">
@@ -41,23 +41,23 @@
 
                         <form method="post">
                             <label>Product Name</label>
-                            <input type="text" asp-for="ProductName" class="form-control"/>
-                            <br/>
-                            <label>Stock</label>
-                            <input type="number" asp-for="Stock" class="form-control"/>
-                            <br/>
-                            <label>Price</label>
-                            <input type="text" asp-for="Price" class="form-control"/>
-                            <br/>
-                            <label>ImageUrl</label>
-                            <input type="text" asp-for="ImageUrl" class="form-control"/>
-                            <br/>
-                            <label>Description</label>
-                            <input type="text" asp-for="Description" class="form-control"/>
-                            <br/>
-                            <label>Category</label>
-                            <input type="text" asp-for="CategoryId" class="form-control"/>
-                            <br/>
+                            <input type="text" asp-for="ProductName" class="form-control" />
+                            <br />
+                            <label>Product Stock</label>
+                            <input type="number" asp-for="Stock" class="form-control" />
+                            <br />
+                            <label>Product Price</label>
+                            <input type="text" asp-for="Price" class="form-control" />
+                            <br />
+                            <label>Product Image Url</label>
+                            <input type="text" asp-for="ImageUrl" class="form-control" />
+                            <br />
+                            <label>Product Description</label>
+                            <input type="text" asp-for="Description" class="form-control" />
+                            <br />
+                            <label>Product Category</label>
+                            <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.categories"></select>
+                            <br />
                             <button class="btn btn-primary">Create Product</button>
                         </form>
 

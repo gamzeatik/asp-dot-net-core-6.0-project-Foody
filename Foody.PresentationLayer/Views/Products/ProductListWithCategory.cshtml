@@ -1,4 +1,4 @@
-@model List<Foody.EntityLayer.Concrete.Product>
+@model List<Product>
 
 @{
     ViewData["Title"] = "ProductList";
@@ -62,17 +62,17 @@
                                     <td>@item.CategoryId</td>
                                     <td>@item.Category.CategoryName</td>
                                     <td>
-                                        <a href="/Products/DeleteProducts/@item.ProductId" class="btn btn-danger">Delete</a>
+                                        <a href="/Products/DeleteProduct/@item.ProductId" class="btn btn-danger">Delete</a>
                                     </td>
                                     <td>
-                                        <a href="/Products/UpdateProducts/@item.ProductId" class="btn btn-success">Update</a>
+                                        <a href="/Products/UpdateProduct/@item.ProductId" class="btn btn-success">Update</a>
                                     </td>
                                 </tr>
                             }
 
                             </tbody>
                         </table>
-                        <a href="/Products/CreateProducts/" class="btn btn-primary">Add New Product</a>
+                        <a href="/Products/CreateProduct/" class="btn btn-primary">Add New Product</a>
                     </div>
                 </div>
 

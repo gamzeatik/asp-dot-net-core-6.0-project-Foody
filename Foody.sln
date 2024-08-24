@@ -1,12 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.EntityLayer", "Foody.EntityLayer\Foody.EntityLayer.csproj", "{79E0D1C6-0AAE-45E5-AA3F-0CCFC5DFF044}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.EntityLayer", "Foody.EntityLayer\Foody.EntityLayer.csproj", "{79E0D1C6-0AAE-45E5-AA3F-0CCFC5DFF044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.DataAccessLayer", "Foody.DataAccessLayer\Foody.DataAccessLayer.csproj", "{509A12C0-0BB0-4414-8897-70F091B2EC05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.DataAccessLayer", "Foody.DataAccessLayer\Foody.DataAccessLayer.csproj", "{509A12C0-0BB0-4414-8897-70F091B2EC05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.BusinessLayer", "Foody.BusinessLayer\Foody.BusinessLayer.csproj", "{F7477B77-9D23-4F22-BB06-8295AE8F0D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.BusinessLayer", "Foody.BusinessLayer\Foody.BusinessLayer.csproj", "{F7477B77-9D23-4F22-BB06-8295AE8F0D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{FFF77753-4B15-442D-A7FE-7F9E8189CD94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{FFF77753-4B15-442D-A7FE-7F9E8189CD94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E792276C-F9E8-43AA-B226-E697488905F1}"
 EndProject
@@ -32,5 +35,8 @@ Global
 		{FFF77753-4B15-442D-A7FE-7F9E8189CD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFF77753-4B15-442D-A7FE-7F9E8189CD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFF77753-4B15-442D-A7FE-7F9E8189CD94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
