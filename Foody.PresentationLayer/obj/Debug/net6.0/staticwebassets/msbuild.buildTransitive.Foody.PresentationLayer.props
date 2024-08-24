@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Foody.PresentationLayer.props" />
-</Project>
