@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Foody.DtoLayer.Dtos.SliderDtos
 {
-    internal class UpdateSliderDto
+    public class UpdateSliderDto
     {
         public int SliderId { get; set; }
         public string SliderTitle { get; set; }
