@@ -1,13 +1,13 @@
-﻿@model CreateSliderDto
+﻿@model GetByIdAboutDto
 @{
-    ViewData["Title"] = "CreateSlider";
+    ViewData["Title"] = "UpdateAbout";
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
 <div class="container">
     <div class="page-inner">
         <div class="page-header">
-            <h3 class="fw-bold mb-3">Sliders</h3>
+            <h3 class="fw-bold mb-3">Abouts</h3>
             <ul class="breadcrumbs mb-3">
                 <li class="nav-home">
                     <a href="#">
@@ -18,13 +18,13 @@
                     <i class="icon-arrow-right"></i>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Add Slider</a>
+                    <a href="#">Update About</a>
                 </li>
                 <li class="separator">
                     <i class="icon-arrow-right"></i>
                 </li>
                 <li class="nav-item">
-                    <a href="#">New Create Slider</a>
+                    <a href="#">Update About Operation</a>
                 </li>
             </ul>
         </div>
@@ -34,18 +34,20 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <div class="card-title">Add Slider Panel</div>
+                        <div class="card-title">Update About Panel</div>
                     </div>
                     <div class="card-body">
 
                         <form method="post">
+                            <input type="hidden" asp-for="AboutId" class="form-control" />
+                            <br />
                             <label>Title</label>
-                            <input type="text" asp-for="SliderTitle" class="form-control" />
+                            <input type="text" asp-for="Title" class="form-control" />
                             <br />
-                            <label>Image Url</label>
-                            <input type="text" asp-for="ImageUrl" class="form-control" />
+                            <label>Description</label>
+                            <textarea rows="5" asp-for="Description" class="form-control"> </textarea>
                             <br />
-                            <button class="btn btn-primary">Create Slider</button>
+                            <button class="btn btn-success">Update About</button>
                         </form>
 
                     </div>
